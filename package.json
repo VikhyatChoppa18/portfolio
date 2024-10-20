@@ -1,7 +1,9 @@
 {
   "name": "vikhyat-ve",
-  "homepage":"https://github.io/VikhyatChoppa18/portfolio",
+<<<<<<< HEAD
 
+=======
+>>>>>>> 18893eb27ecfdbeece666c0bcf3c7e1902f33693
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 8012",
+    "preview": "vite preview ",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
     
