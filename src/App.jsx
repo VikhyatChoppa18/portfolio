@@ -19,7 +19,7 @@ export default function App() {
        <div className="container mx-auto px-8 text-gray-800">
          <NavigationBar />
          <Routes>
-           <Route path="/portfolio/" element={<Hero />} />
+           <Route path="/" element={<Hero />} />
            <Route path="/projects" element={<Projects />} />
            <Route path="/contact" element={<Contact />} />
            <Route path="/education" element={<Education />} />
