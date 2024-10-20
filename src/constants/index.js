@@ -97,7 +97,7 @@ export const PROJECTS = [
 },
 {
   title: "Industrial Alert Automation System",
-  description: "An IoT project that detects mergencies and alerts the users or warehouse owners to prevent accident and other accidents, like fire accidents.",
+  description: "An IoT project that detects emergencies and alerts the users or warehouse owners to prevent accident and other accidents, like fire accidents.",
   image: "/path/to/project6-image.jpg",
   technologies: ["Arduino", "MQTT", "Node-RED", "InfluxDB","Selenium webdriver"],
   githubLink: "https://github.com/VikhyatChoppa18/Industrial_Safety_Alert_System"
