@@ -86,8 +86,8 @@ export const PROJECTS = [
     title: "Brain tumor classffication System",
     description: "An custom built CNN model api to detect if the  MRI image has cancer or not.",
     image: "/path/to/project6-image.jpg",
-    technologies: ["Arduino", "MQTT", "Node-RED", "InfluxDB","Docker"],
-    githubLink: "https://github.com/yourusername/project6"
+    technologies: ["PyTorch", "FastAPI", "scikit-learn", "Docker"],
+    githubLink: "https://github.com/VikhyatChoppa18/Brain_Tumor_Classifier_"
 },
 {
   title: "Industrial Alert Automation System",
