@@ -27,17 +27,18 @@ function Contact() {
         </a>
       </div>
 
-      <p className="text-center max-w-2xl mx-auto mb-8 text-gray-800">
-  I'm passionate about leveraging technology to solve complex problems. With expertise in machine learning, data analysis, and software engineering, I'm always eager to collaborate on innovative projects. Feel free to reach out for professional opportunities or to discuss tech trends!
-</p>
-
+      <p className="text-center max-w-5xl mx-auto mb-8 text-black-800">
+    I am a passionate data scientist and technology enthusiast, I like building open source software and systems. I enjoy talking about innovation in AI/ML and product development,I enjoy playing basketball &#127936; and hiking &#128507;.
+    Please don't hesitate to reach out to me if you are looking for a partner for a project or discuss. You can connect  &#128237; with me on &#9757; 
+    
+       </p>
 
       <div className="text-center mb-12">
         <a 
           href="https://docs.google.com/document/d/your-resume-link" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-violet-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           View My Resume
         </a>

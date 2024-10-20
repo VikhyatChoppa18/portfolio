@@ -8,11 +8,17 @@ import linux from "../assets/Certifications/Linuxfordevelopers.png";
 import azureda from "../assets/Certifications/microsoftazurefordataengineering.png";
 
 
-export const hero_content = `A passionate  who enjoys building software tools
+export const hero_content = `A passionate engineer who enjoys building software tools
 and building solutions to the real world challenges`;
 
-export const about_text = `A passionate individiual about technology and analytics, there by building solutions to solve the real world challenges. An engineer to the core who loves to build innovative tools
+export const about_text = `A passionate individiual about technology and analytics, there by building solutions to solve the real world challenges. An engineers to the core who loves to build innovative tools
 and systems related to machine learning and AI.`;
+
+export const text = `Building open source tools and software for web and devices.\n
+                     Developing innovative solutions to the most challenging real world problems.\n
+                     Designing and developing crticial systems for lifesaving during any hazards.\n
+                     Implementing solutions and systems to improve service and enhance solution delivery.\n
+                     `;
 
 export const EXPERIENCES = [
   {

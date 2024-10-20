@@ -6,7 +6,7 @@ import {RiReactjsLine, RiSingleQuotesL} from "react-icons/ri"
 import {SiMongodb} from "react-icons/si"
 import {TbBrandNextjs} from "react-icons/tb"
 import { SiPython, SiR, SiTensorflow,SiPytorch,SiDjango,SiLinux,SiReact,SiMysql,SiKubernetes,SiGnubash,SiGithubactions,SiDocker,SiJavascript, } from 'react-icons/si';
-import { about_text } from "../constants/index"
+import { about_text, text } from "../constants/index"
 import {motion} from "framer-motion"
 import { FaLinkedin, FaGithub, FaKaggle, FaGoogle } from 'react-icons/fa';
 import { SiHackerrank, SiLeetcode } from 'react-icons/si';
@@ -19,7 +19,7 @@ const containerVariants = {
     opacity: 1,
     x: 0,
     transition:{
-      duration: 0.5,
+      duration: 0.8,
       staggerChildren: 0.5,
     }
   }
@@ -49,12 +49,13 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-3/4">
             <motion.div initial="hidden"  animate="visible"  variants={containerVariants}className="flex flex-col item-center lg:items-start
-            mt-,10"><br/>
-                <motion.h2  variants={childVariants}style={{color: 'black'}}className="pb-2 text-1xl tracking-tighter
+            mt-,10">
+                <motion.h2  variants={childVariants}style={{color: 'black'}}className="pb-2 text-3xl tracking-tighter
                 lg:text-5xl"><br/>VVikhyat Choppa</motion.h2>
                  
-                <motion.p variants = {childVariants}style={{ color: 'black',fontFamily: '"Times New Roman", Times, serif'}} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking font-serif">
-                      {about_text}
+                <motion.p variants = {childVariants}style={{ color: 'black',fontFamily: '"Times New Roman", Times, serif'}} className="my-2 max-w-lg py-6 text-2xl leading-relaxed tracking font-serif">
+                <p>A passionate individiual about technology and analytics, there by building solutions to solve the real world challenges. An engineer &#128295; to the core who loves to build innovative tools
+                and systems related to machine learning and AI &#129302;.</p>
                 </motion.p>
                 <div className="social-links flex justify-center space-x-6 mb-8">
         <a href="https://www.linkedin.com/in/vikhyat-venkata" target="_blank" rel="noopener noreferrer" className="text-4xl text-blue-600 hover:text-blue-800">
@@ -79,8 +80,8 @@ const Hero = () => {
       </div>
             </motion.div>
             <div className="pb-10">
-            <h4  style={{color: 'black'}}className="my-20 text-center text-3xl text-blue-200">What I do?</h4>
-              <h4  style={{color: 'black'}}className="my-20 text-center text-3xl">Software Engineering and DataScience/AI</h4>
+            <h4  style={{color: 'black'}}className="my-10 text-center text-3xl text-blue-200">What I do?</h4>
+              <h4  style={{color: 'black'}}className="my-10 text-center text-3xl">SE and DataScience/AI</h4>
               <motion.div  variants={childVariants}className="flex flex-wrap items-center justify-center gap-4">
                 <div className="p-4">
                   <SiPython className="text-5xl text-blue-500" />
@@ -142,6 +143,12 @@ const Hero = () => {
                 <SiGithubactions className="text-5xl text-blue-700" />
                 </div>
               </motion.div>
+              <motion.div initial="hidden"  animate="visible"  variants={containerVariants}className="my-10 text-center text-2xl text-blue-200">
+              <motion.p variants = {childVariants}style={{ color: 'black',fontFamily: '"Times New Roman", Times, serif'}} className="my-10 text-center text-2xl  text-blue-200" align="center">
+                      {text}
+                </motion.p>
+              </motion.div>
+              
             </div>
 
             </div>

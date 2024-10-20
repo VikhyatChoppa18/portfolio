@@ -15,7 +15,7 @@ const NavigationBar = () => {
         
       </div>
       <ul className="flex justify-center space-x-4">
-        <li><Link to="/" className="hover:text-blue-500">Home</Link></li>
+        <li><Link to="/portfolio/" className="hover:text-blue-500">Home</Link></li>
         <li><Link to="/projects" className="hover:text-blue-500">Projects</Link></li>
         <li><Link to="/education" className="hover:text-blue-500">Education</Link></li>
         <li><Link to="/contact" className="hover:text-blue-500">Contact</Link></li>
