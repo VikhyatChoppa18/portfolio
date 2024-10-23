@@ -70,7 +70,7 @@ const Hero = () => {
         <a href="mailto:venkataj280@gmail.com" className="text-4xl text-red-500 hover:text-red-700">
           <FaGoogle />
         </a>
-        <a href="https://www.hackerrank.com/profile/vikhyat123" target="_blank" rel="noopener noreferrer" className="text-4xl text-green-600 hover:text-green-800">
+        <a href="git" target="_blank" rel="noopener noreferrer" className="text-4xl text-green-600 hover:text-green-800">
           <SiHackerrank />
         </a>
         <a href="https://leetcode.com/u/VenkataVikhyatCh/" target="_blank" rel="noopener noreferrer" className="text-4xl text-[#FFA116] hover:text-[#E69500]">
@@ -108,31 +108,29 @@ const Hero = () => {
                 <div className="p-4">
                    <SiDjango className="text-5xl text-green-600" />
                 </div>
+                <div>                 <img src={aws}/>
+                </div>
                 <div>
                 <img src={azure}/>
                 </div>
-                <div>                 <img src={aws}/>
-                </div>
-
                 <div className="p-4">
                       <SiReact className="text-5xl text-blue-400" />
                 </div>
-                
+                <div className="p-4">
+            <img 
+                src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" 
+                alt="FastAPI Logo" 
+                className="h-10  " 
+            /></div>
+
                   <div className="p-4">
                   <SiMongodb className="text-5xl text-cyan-500" />
                 </div>
                 <div className="p-4">
                 </div>
-                 
-
-                <div className="p-4">
-                   <SiPytorch className="text-5xl text-red-500" />
-                </div>
-                
                 <div className="p-4">
                   <SiDocker className="text-5xl text-blue-400" />
-                </div>
-               
+                </div> 
                 <div className="p-4">
                   <SiLinux className="text-5xl text-black-900" />
                 </div>
@@ -142,6 +140,7 @@ const Hero = () => {
                 <div className="p-4">
                 <SiGithubactions className="text-5xl text-blue-700" />
                 </div>
+               
               </motion.div>
               <motion.div initial="hidden"  animate="visible"  variants={containerVariants}className="my-10 text-center text-2xl text-blue-200">
               <motion.p variants = {childVariants}style={{ color: 'black',fontFamily: '"Times New Roman", Times, serif'}} className="my-10 text-center text-2xl  text-blue-200" align="center">
