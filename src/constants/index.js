@@ -145,7 +145,7 @@ export const CERTIFICATIONS = [
       title: "AWS Machine Learning Engineer",
       issuer: "AWS",
       image: linux,
-      link: ""
+      link: "https://coursera.org/share/a5b3f1657d7f272b47e5b7b8dcd941e3"
   },
   {
     title: "Hugging Face Deep Reinforcement Learning",
