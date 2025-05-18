@@ -81,7 +81,7 @@ const Hero = () => {
             </motion.div>
             <div className="pb-10">
             <h4  style={{color: 'black'}}className="my-10 text-center text-3xl text-blue-200">What I do?</h4>
-              <h4  style={{color: 'black'}}className="my-10 text-center text-3xl">SE and DataScience/AI</h4>
+              <h4  style={{color: 'black'}}className="my-10 text-center text-3xl">Developing tools and AI Systems.</h4>
               <motion.div  variants={childVariants}className="flex flex-wrap items-center justify-center gap-4">
                 <div className="p-4">
                   <SiPython className="text-5xl text-blue-500" />
