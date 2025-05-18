@@ -11,7 +11,7 @@ import azureda from "../assets/Certifications/microsoftazurefordataengineering.p
 export const hero_content = `A passionate engineer who enjoys building software tools
 and building solutions to the real world challenges`;
 
-export const about_text = `A passionate individiual about technology and analytics, there by building solutions to solve the real world challenges. An engineers to the core who loves to build innovative tools
+export const about_text = `A passionate individiual about technology and analytics, there by building solutions to solve the real world challenges. An engineer to the core who loves to build innovative tools
 and systems related to machine learning and AI.`;
 
 export const text = `Building open source tools and software for web and devices.\n
@@ -53,12 +53,12 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
-  {
-      title: "Flight Recommendation System",
-      description: "A flight recommendation system recommends the best flights for journey.",
-      image: {project1},
-      technologies: ["Django", "MySQL", "Docker"],
-      githubLink: "https://github.com/VikhyatChoppa18/ML_Fullstack_Projects/tree/0bede1cf3b9b012a68ff500349ea99b7d10057af/recommendation"
+   {
+      title: "LiquidityForecasterSystem",
+      description: "An application that predicts the opeming prices price of a stock.Built on LSTM  neural networks.",
+      image: "/path/to/project4-image.jpg",
+      technologies: ["PyTorch", "Streamlit","Plotly","Docker"],
+      githubLink: "https://github.com/VikhyatChoppa18/LSTM_App"
   },
   {
       title: "PyT_Transformer",
@@ -75,26 +75,19 @@ export const PROJECTS = [
       githubLink: "https://github.com/VikhyatChoppa18/Text_Summarization_tranformers"
   },
   {
-      title: "LSTM_App",
-      description: "An application that predicts the opeming prices price of a stock.Built on LSTM  neural networks.",
-      image: "/path/to/project4-image.jpg",
-      technologies: ["PyTorch", "Streamlit","Plotly","Docker"],
-      githubLink: "https://github.com/VikhyatChoppa18/LSTM_App"
-  },
-  {
-      title: "VAE_api",
-      description: "A api built on Vairiatiotnal Autoencoders to generate the similar images as the uploaded images.",
-      image: "/path/to/project5-image.jpg",
-      technologies: ["PyTorch", "FastAPI","Docker"],
-      githubLink: "https://github.com/VikhyatChoppa18/VAE_api"
-  },
-  {
     title: "Brain tumor classffication System",
     description: "An custom built CNN model api to detect if the  MRI image has cancer or not.",
     image: "/path/to/project6-image.jpg",
     technologies: ["PyTorch", "FastAPI", "scikit-learn", "Docker"],
     githubLink: "https://github.com/VikhyatChoppa18/Brain_Tumor_Classifier_"
 },
+   {
+      title: "VAE_api",
+      description: "A api built on Vairiatiotnal Autoencoders to generate the similar images as the uploaded images.",
+      image: "/path/to/project5-image.jpg",
+      technologies: ["PyTorch", "FastAPI","Docker"],
+      githubLink: "https://github.com/VikhyatChoppa18/VAE_api"
+  },
 {
   title: "Industrial Alert Automation System",
   description: "An IoT project that detects emergencies and alerts the users or warehouse owners to prevent accident and other accidents, like fire accidents.",
@@ -113,7 +106,7 @@ export const CONTACT = {
 
 export const EDUCATION = [
   {
-      institution: "Northeastern University(College of Professional Studies)",
+      institution: "Northeastern University",
       degree: "Masters in Analytics",
       year: "2022 - 2024",
       logo: education1,
@@ -131,7 +124,7 @@ export const EDUCATION = [
       ]
   },
   {
-    institution: "Gitam University(Gitam Institute of Technology)",
+    institution: "Gitam University",
     degree: "Batchelor of Engineering",
     year: "2017 - 2021",
     logo: education2,
@@ -149,20 +142,20 @@ export const EDUCATION = [
 
 export const CERTIFICATIONS = [
   {
-      title: "Linux for Developers",
-      issuer: "Linux Foundation",
+      title: "AWS Machine Learning Engineer",
+      issuer: "AWS",
       image: linux,
-      link: "https://coursera.org/share/cce2a9f6dca021fa0b2ade514905bf33"
+      link: ""
   },
   {
-    title: "Microsoft Azure for Data Engineering",
-    issuer: "Microsoft",
+    title: "Hugging Face Deep Reinforcement Learning",
+    issuer: "HuggingFace",
     image: azureda,
     link: "https://coursera.org/share/a5b3f1657d7f272b47e5b7b8dcd941e3"
 },
 {
-  title: "Data Storage in Azure",
-  issuer: "Microsoft",
+  title: "Deep Learning",
+  issuer: "NVIDIA",
   image: azureda,
   link: "https://coursera.org/share/baebe1f9b9b9bb693bdb2b574468beb0"
 },
